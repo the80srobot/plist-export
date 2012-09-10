@@ -48,12 +48,6 @@
               (cons [(zip/node z) tag] (concat tagged-unwound (zip-walk next))))
             (cons [(zip/node z) tag] (zip-walk next))))))))
 
-(defn ls-test
-  [n]
-  (lazy-seq
-    (let [m (inc n)]
-      (concat [n m] (ls-test (inc m))))))
-
 (defmulti ^:private plist-node
   (fn [node tag]
       (type node)))
