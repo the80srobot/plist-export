@@ -1,4 +1,4 @@
-(defproject org.clojars.the80srobot/plist-export "0.0.1"
+(defproject org.clojars.t8r/plist-export "0.0.2"
   :description "Clojure lazy plist library with import/export support."
   :dependencies [[org.clojure/clojure "1.4.0"]
                   [commons-codec/commons-codec "1.4"]]

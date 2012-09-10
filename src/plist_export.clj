@@ -1,4 +1,4 @@
-(ns plist-export.core
+(ns plist-export
   (:require [clojure.string :as string]
             [clojure.zip :as zip])
   (:import [org.apache.commons.codec.binary Base64]))

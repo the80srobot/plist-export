@@ -6,7 +6,7 @@ plist-export is a simple library to export any combination of Clojure data struc
 
 In your project.clj :dependencies:
 
-    [t8r/plist-export "0.0.1"]
+    [org.clojars.t8r/plist-export "0.0.2"]
 
 There is only one function, which is lazy-plist. Example:
 
